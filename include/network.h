@@ -2,7 +2,6 @@
 #define NETWORK_H
 
 #include "chatserver.h"
-#include <QSsl>
 
 extern ChatServer *chat_server;
 extern QWebSocket *client_socket;
